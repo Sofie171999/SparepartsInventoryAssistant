@@ -37,12 +37,12 @@ class Program
             // Tjek om input matcher en reservedel præcist
             if (inventory.Contains(input))
             {
-                Console.WriteLine($"I have got {input} here for you 😊. Bye!");
+                Console.WriteLine($"I have got {input} here for you. Bye!");
                 break; // afslut programmet
             }
             else
             {
-                Console.WriteLine($"I am afraid we don’t have any {input} in the inventory 😔");
+                Console.WriteLine($"I am afraid we don’t have any {input} in the inventory");
             }
         }
     }
